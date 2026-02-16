@@ -9,7 +9,7 @@ def require_auth() -> None:
     if st.session_state.get("authed"):
         return
 
-    st.title("🔒 Schedule Portal")
+    st.title("🔒 スケジュールポータルサイト")
     pw = st.text_input("パスワード", type="password")
 
     if st.button("ログイン"):

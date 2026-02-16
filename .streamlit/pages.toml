@@ -1,0 +1,14 @@
+[[pages]]
+path = "app.py"
+name = "スケジュール"
+icon = "📅"
+
+[[pages]]
+path = "pages/2_rehearsal_places.py"
+name = "稽古場一覧"
+icon = "🏠"
+
+[[pages]]
+path = "pages/3_performance_venues.py"
+name = "本番会場"
+icon = "🎭"
