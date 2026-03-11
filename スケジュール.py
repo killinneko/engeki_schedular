@@ -112,7 +112,7 @@ def render_upcoming_cards(df) -> None:
         if CONF_TAG in t:
             return "確定", t.replace(CONF_TAG, "").strip(), COLOR_CONF, "badge-confirmed"
         if RESV_TAG in t:
-            return "予備日", t.replace(RESV_TAG, "").strip(), COLOR_RESV, "badge-reserve"
+            return "予備", t.replace(RESV_TAG, "").strip(), COLOR_RESV, "badge-reserve"
         return "その他", t, COLOR_OTHER, "badge-other"
 
     st.subheader("🗓 直近の予定（10件）")
