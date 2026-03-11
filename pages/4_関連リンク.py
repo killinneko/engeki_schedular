@@ -1,10 +1,13 @@
 import streamlit as st
+from lib.auth import require_auth
+
 
 st.set_page_config(
     page_title="関連リンク",
     page_icon="🔗",
     layout="wide"
 )
+require_auth()
 
 st.title("🔗 関連リンク")
 
